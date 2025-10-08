@@ -10,13 +10,18 @@ public class ifCetakKRS16 {
         System.out.println("Apakah UKT sudah lunas? (true/false) : ");
         boolean uktlunas16= dito.nextBoolean();
 
-        if (uktlunas16){
+        // if (uktlunas16){
+        //     System.out.println("Pembayaran UKT terverifikasi");
+        //     System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
+        //     } else {
+        //         System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu");
+        //     }
+        if (uktlunas16 == true) {
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-            } else {
-                System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu");
-            }
-
+        } else {
+            System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu"); 
+        }
         
     }
     
