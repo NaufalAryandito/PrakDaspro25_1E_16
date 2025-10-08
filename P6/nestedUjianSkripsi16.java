@@ -1,4 +1,4 @@
-package jobsheet5;
+package P6;
 import java.util.Scanner;
 public class nestedUjianSkripsi16 {
     public static void main(String[] args) {
