@@ -16,13 +16,8 @@ public class ifCetakKRS16 {
         //     } else {
         //         System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu");
         //     }
-        if (uktlunas16 == true) {
-            System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-        } else {
-            System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu"); 
-        }
-        
+        pesan16= (uktlunas16 == true) ? "Pembayaran UKT terverifikasi"+ "\t " +"Silahkan cetak KRS dan minta TTD DPA":"Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
+        System.out.println(pesan16);
     }
     
 }
