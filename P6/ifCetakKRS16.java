@@ -17,7 +17,7 @@ public class ifCetakKRS16 {
         //         System.out.println("Registrasi ditolak. silahkan lunasi UKT terlebih dahulu");
         //     }
         pesan16= (uktlunas16 == true) ? "Pembayaran UKT terverifikasi"+ "\t " +"Silahkan cetak KRS dan minta TTD DPA":"Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
-        System.out.println(pesan16);
+        System.out.println(pesan16); 
     }
     
 }
