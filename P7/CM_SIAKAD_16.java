@@ -155,16 +155,16 @@ public class CM_SIAKAD_16 {
         System.out.println("[ERROR] Nilai tidak valid! Semua nilai harus berada di antara 0-100");
      System.exit(0); 
     }
-   double ip16= ((nilaiSetara*sksP)+(nilaiSetara*sksD)+(nilaiSetara2*sksI))/7;
-     double totalBobot= ((nilaiSetara*sksP)+(nilaiSetara*sksD)+(nilaiSetara2*sksI));
+   double ip16= ((nilaiSetara*sksP)+(nilaiSetara1*sksD)+(nilaiSetara2*sksI))/7;
+     double totalBobot= ((nilaiSetara*sksP)+(nilaiSetara1*sksD)+(nilaiSetara2*sksI));
 
      System.out.println("Nilai Bobot :"+totalBobot);
      System.out.println("Indeks Prestasi (IP) :"+ip16);
      
     if (ip16 >= 2.00) {
-            if (nilaiSetara1 >= 2) {
-                    if (nilaiSetara > 1) {
-                        if (nilaiSetara2 > 1) {
+            if (nilaiP16 >= 50) {
+                    if (nilaiD16 >39) {
+                        if (nilaiI16>39) {
                             System.out.println("Status Semester= Lulus ");
                         } else 
                            System.out.println("Status Semester= Tidak Lulus ");
