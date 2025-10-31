@@ -13,7 +13,7 @@ public class Triangle16 {
             System.out.print("*");
             j16++;
         }
-
+        System.out.println();
         i16++;
     }
 
