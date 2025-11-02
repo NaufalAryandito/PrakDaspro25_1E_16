@@ -21,7 +21,6 @@ public class TugasKuadrat16 {
             System.out.print("="+" "+jumlah16);
                 System.out.println();
                 n16++;
-
             }
         }
     }
