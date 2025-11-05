@@ -7,7 +7,7 @@ public class ArrayNilai16 {
     Scanner dito = new Scanner(System.in);
 
     int nilaiAkhir16[]= new int[10];    
-    for (int i=0; i<10; i++){
+    for (int i=0; i<nilaiAkhir16.length; i++){
         System.out.print("Masukkan nilai akhir ke- "+i+" : ");
         nilaiAkhir16[i]= dito.nextInt();
         
