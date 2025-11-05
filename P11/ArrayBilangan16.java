@@ -5,11 +5,9 @@ public class ArrayBilangan16 {
         
         int[] bil16= {5,13,-7,17};
 
-        System.out.println(bil16[0]);
-        System.out.println(bil16[1]);
-        System.out.println(bil16[2]);
-        System.out.println(bil16[3]);
-       
+        for (int i=0; i < 4; i++){
+            System.out.println(bil16[i]);
+        }
         
         
         // int [] bil = new int [4];
@@ -18,6 +16,11 @@ public class ArrayBilangan16 {
         // bil [2]= -7;
         // bil [3]= 17;
         
+        // System.out.println(bil16[0]);
+        // System.out.println(bil16[1]);
+        // System.out.println(bil16[2]);
+        // System.out.println(bil16[3]);
+       
         
         
         
