@@ -20,22 +20,22 @@ public class SearchNilai16 {
         System.out.println("Masukkan nilai yang akan dicari= ");
         key16= dito.nextInt();
         
-        for (int i=0; i<arrNilai16.length; i++){
-            if (arrNilai16[i] == key16){
-                hasil16 = i+1;
-            
-            }
-            // if (key16!=i){
 
-            //     System.out.println("");
-            // }
+    
+    for (int i=0; i<arrNilai16.length; i++){
+        if (arrNilai16[i] == key16){
+            hasil16 = i+1;
+            break;
         }
-
-       
-       
-       
-        System.out.println();
-        System.out.println("Nilai "+ key16+" Ketemu, merupakan nilai mahasiswa ke- "+hasil16);
-        System.out.println();
+        
+        if (key16!=arrNilai16[i]){
+    
+            System.out.println("Nilai yang dicari tidak ditemukan");
+            System.exit(0);
     }
+}
+System.out.println();
+System.out.println("Nilai "+ key16+" Ketemu, merupakan nilai mahasiswa ke- "+hasil16);
+System.out.println();
+}
 }
