@@ -20,25 +20,29 @@ public class BioskopWithScanner {
             kolom16 = dito.nextInt();
             dito.nextLine();
 
-            penonton16[baris16 - 1][kolom16 - 1] = nama16;
-
+            // penonton16[baris16 - 1][kolom16 - 1] = nama16;
+            // if (baris16>4 && baris16<4) {
+            //     System.out.println("Kursi Tidak");
+            // }
             System.out.print("Input penonton lainnya?(y/n): ");
             next16 = dito.nextLine();
 
             if (next16.equalsIgnoreCase("n")) {
-
-
                 break;
-
-        
+            }
+            
+                
+            
+            
         }
         System.out.println("--Daftar Penonton--");
         for (int i = 0; i < penonton16.length; i++) {
-            for (int j = 0; j<penonton16[i].length; j++) {
-                System.out.print(penonton16[i][j]+"\t");
+            for (int j = 0; j < penonton16[i].length; j++)
+                    if (penonton16[i][j]==null){
+                    System.out.print("***"+"\t");
+                    }else
+                    System.out.print(penonton16[i][j] + "\t");
+                    System.out.println();
             }
-            System.out.println();
-        }
     }
-}
 }
