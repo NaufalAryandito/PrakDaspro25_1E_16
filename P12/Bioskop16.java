@@ -11,6 +11,7 @@ public class Bioskop16 {
          penonton16[2][0]="Eka";
          penonton16[2][1]="Farhan";
          penonton16[3][0]="Gisel";
+         penonton16[3][1]="Hana";
 
          System.out.printf("%s \t %s\n", penonton16[0][0], penonton16[0][1]);
          System.out.printf("%s \t %s\n", penonton16[1][0], penonton16[1][1]);
