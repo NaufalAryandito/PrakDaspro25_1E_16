@@ -18,9 +18,9 @@ public class Bioskop16 {
           System.out.printf("%s \t %s\n", penonton16[2][0], penonton16[2][1]);
            System.out.printf("%s \t %s\n", penonton16[3][0], penonton16[3][1]);
 
-           System.out.println(penonton16.length);
-          for (String[] barisPenonton16 : penonton16) {
-            System.out.println("Panjang baris: "+barisPenonton16.length);
+           System.out.println("Penonton pada baris ke- 3: ");
+          for (int i=0; i < penonton16[2].length;i++) {
+            System.out.println(penonton16[2][i]);
           }
         }
 }
