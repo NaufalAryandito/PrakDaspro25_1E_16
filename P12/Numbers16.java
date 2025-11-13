@@ -1,5 +1,7 @@
 package P12;
 
+import java.util.Arrays;
+
 public class Numbers16 {
     public static void main(String[] args) {
         int[][] myNumbers16= new int[3][];
@@ -8,5 +10,8 @@ public class Numbers16 {
         myNumbers16[1]= new int[3];
         myNumbers16[2]= new int[1];
 
+        for (int i = 0; i < myNumbers16.length; i++) {
+            System.out.println(Arrays.toString(myNumbers16[i]));
+        }
     }
 }
