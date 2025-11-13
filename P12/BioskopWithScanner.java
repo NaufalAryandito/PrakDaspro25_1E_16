@@ -20,6 +20,10 @@ public class BioskopWithScanner {
             kolom16 = dito.nextInt();
             dito.nextLine();
             
+            if (penonton16[baris16-1][kolom16-1]!=null) {
+                System.out.println("Kursi sudah di booking oleh "+ penonton16[baris16-1][kolom16-1]+" ,mohon memilih kembali");
+            continue;
+            }
             if (baris16>4||baris16<1){
                 System.out.println("Nomor tidak valid, mohon diulang kembali");
                 continue;
