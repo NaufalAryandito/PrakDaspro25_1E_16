@@ -20,10 +20,15 @@ public class BioskopWithScanner {
             kolom16 = dito.nextInt();
             dito.nextLine();
 
-            // penonton16[baris16 - 1][kolom16 - 1] = nama16;
-            // if (baris16>4 && baris16<4) {
-            //     System.out.println("Kursi Tidak");
-            // }
+            if (baris16>4||baris16>1){
+                System.out.println("Nomor tidak valid, mohon diulang kembali");
+                continue;
+            }else if (kolom16>2||kolom16<1){
+                System.out.println("Nomor tidak valid, mohon diulang kembali");
+                continue;
+            }
+            penonton16[baris16 - 1][kolom16 - 1] = nama16;
+            
             System.out.print("Input penonton lainnya?(y/n): ");
             next16 = dito.nextLine();
 
