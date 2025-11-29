@@ -3,9 +3,11 @@ package P14;
 public class pelangganKafe16 {
     static void daftarPengunjung16(String...namaPengunjung16){
         System.out.println("Daftar Nama Pengunjung: ");
-        for (int i = 0; i < namaPengunjung16.length; i++) {
-            System.out.println("- "+ namaPengunjung16[i]);
-        }
+       for (String nama16 : namaPengunjung16) {
+        
+           System.out.println("- "+ nama16);
+       } 
+        
         }
        public static void main(String[] args) {
     
